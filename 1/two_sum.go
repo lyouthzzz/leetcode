@@ -22,7 +22,7 @@ func twoSum(nums []int, target int) []int {
 			m[num] = i
 		}
 	}
-	return []int{}
+	return []int{-1, -1}
 }
 
 func main() {
